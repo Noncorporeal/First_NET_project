@@ -24,11 +24,11 @@ namespace First_NET_project
 
 			double width, height, woodLength, glassArea;
 			string widthString, heightString;
-			Console.Write("Width Input:");
+			Console.Write("Width Input in meters:");
 			widthString = Console.ReadLine();
 			
 			width = double.Parse(widthString);
-			Console.Write("Height Input: ");
+			Console.Write("Height Input in meters: ");
 			heightString = Console.ReadLine();
 
 			height = double.Parse(heightString);
