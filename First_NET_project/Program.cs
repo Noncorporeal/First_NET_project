@@ -14,12 +14,12 @@ namespace First_NET_project
 			string name = Console.ReadLine();
 			Console.Write("Enter your location: ");
 			string location = Console.ReadLine();
-
+			//
 			Console.WriteLine($"My name is {name}, I am from {location}");
 			DateTime date = DateTime.Now;
 			Console.WriteLine($"Today's date is {date.ToString("d")}");
 			DateTime christmas = new DateTime(2022, 12, 25);
-			Console.WriteLine("There are {0} days till Christmas!", (christmas - date).TotalDays);
+			Console.WriteLine("There are {0} days till Christmas!", (int)(christmas - date).TotalDays);
 
 
 			double width, height, woodLength, glassArea;
