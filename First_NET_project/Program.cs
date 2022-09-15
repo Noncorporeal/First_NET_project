@@ -10,8 +10,10 @@ namespace First_NET_project
 	{
 		static void Main(string[] args)
 		{
-			string name = "Christoph";
-			string location = "Tucson, AZ";
+			Console.Write("Enter your name: ");
+			string name = Console.ReadLine();
+			Console.Write("Enter your location: ");
+			string location = Console.ReadLine();
 
 			Console.WriteLine($"My name is {name}, I am from {location}");
 			DateTime date = DateTime.Now;
